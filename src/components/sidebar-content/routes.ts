@@ -1,4 +1,5 @@
 import { ROUTES } from '~/pages/routes';
+import { ReactNode } from 'react';
 
 export type RouteType = {
   id: string;
@@ -9,28 +10,23 @@ export type RouteType = {
 export const routes: RouteType[] = [
   { id: 'dashboard', name: 'Dashboard', href: ROUTES.Dashboard },
   {
-    id: 'route1',
-    name: 'Route 1',
-    href: `${ROUTES.GenericPage}?title=Route 1`,
+    id: 'Toggles',
+    name: 'Toggles',
+    href: `${ROUTES.GenericPage}?title=toggles`,
   },
   {
-    id: 'route2',
-    name: 'Route 2',
-    href: `${ROUTES.GenericPage}?title=Route 2`,
+    id: 'Bucket',
+    name: 'Bucket',
+    href: `${ROUTES.GenericPage}?title=bucket`,
   },
   {
-    id: 'route3',
-    name: 'Route 3',
-    href: `${ROUTES.GenericPage}?title=Route 3`,
+    id: 'MSK',
+    name: 'MSK',
+    href: `${ROUTES.GenericPage}?title=msk`,
   },
   {
-    id: 'route4',
-    name: 'Route 4',
-    href: `${ROUTES.GenericPage}?title=Route 4`,
-  },
-  {
-    id: 'route5',
-    name: 'Route 5',
-    href: `${ROUTES.GenericPage}?title=Route 5`,
-  },
+    id: 'Admin',
+    name: 'Admin',
+    href: `${ROUTES.GenericPage}?title=admin`,
+  }
 ];

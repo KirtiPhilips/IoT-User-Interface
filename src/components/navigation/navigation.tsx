@@ -49,10 +49,10 @@ export const Navigation = () => {
 
         <TopBarTitle className={globalStyles.showOnDesktop}>
           <PhilipsLogo className={styles.logo} />
-          <H1>Application Name</H1>
+          <H1>IoT-User-Interface</H1>
         </TopBarTitle>
 
-        <PatientInfo>
+        {/* <PatientInfo>
           <PersonPortraitCircle />
           <PatientInfoHeader title="Doe, John"></PatientInfoHeader>
           <PatientInfoGroup variant="single-line">
@@ -71,7 +71,7 @@ export const Navigation = () => {
               <Label>Male</Label>
             </PatientInfoItem>
           </PatientInfoGroup>
-        </PatientInfo>
+        </PatientInfo> */}
 
         <TopBarUserInfo>
           <Badge value="1">

@@ -1,6 +1,6 @@
 {
-  "name": "filament-vite-starter",
-  "description": "Filament React SPA with Vite",
+  "name": "IoT-User-Interface",
+  "description": "IoT-User-Interface for demo purpose",
   "private": true,
   "version": "0.0.1",
   "type": "module",
